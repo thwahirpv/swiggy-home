@@ -1,1 +1,1 @@
-# swiggy-home
+# Swiggy

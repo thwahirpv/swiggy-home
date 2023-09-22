@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+:root{
+    --gray: rgb(173, 170, 170);
+}
+
+.padding-10 {
+    padding-top: 9rem;
+}
+
+.logo {
+    width: 190px;
+}
+.find-btn {
+    background: #fc8019;
+    border-radius: 0;
+}
+.find-btn:hover {
+    background: #fc8019;
+}
+.findfood {
+    outline: none;
+    font-size: 16px;
+}
+.findfood::placeholder {
+    font-weight: 600;
+    word-spacing: 1px;
+}.left-section {
+    width: 83%;
+}
+.top-section {
+    height: 70vh;
+    background-image: url(/Assets/Images/Lunch1_vlksgq.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.color {
+    color: rgb(198, 196, 196);
+    font-size: 14px;
+}
+.address-color {
+    color: rgb(109, 105, 105);
+}
+.card {
+    width: 20rem;
+}
+.card-section {
+    column-gap: 6rem;
+}
+.card-p{
+    font-size: 15px;
+}
+.card-gap {
+    gap: 2rem;
+    border: none;
+    background: rgb(30, 5, 5);
+    color: white;
+}
+.card-section-bg {
+    background: rgb(30, 5, 5);
+}
+.store-p{
+    color: rgb(164, 158, 158);
+}
+.store-head > img{
+    width: 10rem;
+}
+.phone-img{
+    width: 300px;
+}
+
+
+
+@media screen and (max-width:530px) {
+    .sign{
+        font-size:10px;
+        padding: .5rem 1rem !important;
+    }
+    .find-btn {
+        font-size:10px;
+        height: 100%;
+    }
+    .findfood::placeholder{
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .store-head > img {
+        width: 7rem;
+    }
+}
+/* @media screen and (max-width: 995px){
+    .store-edit {      
+        flex-direction: column-reverse;
+    }
+} */
